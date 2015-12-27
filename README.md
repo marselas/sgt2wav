@@ -1,0 +1,8 @@
+# sgt2wav
+DirectMusic SGT to WAV command-line file conversion utility
+
+DirectMusic was a Microsoft API that allowed music and sound effects to be composed and played using a flexible, interactive interface. A large number of games and other multimedia products relied on DirectMusic not only for its flexibility, but because it provided a high-level audio interface to Microsoft’s DirectSound API.
+
+Although DirectMusic was deprecated with the release of Windows Vista, and barely runs under Windows 8, a significant amount of legacy audio content is still stored in DirectMusic segment (SGT), RMI (RMI), and MIDI (MID) files.
+
+The purpose of this command-line utility is to allow legacy DirectMusic files to be captured in real-time and saved as uncompressed WAV files. An audio device is required, as the DirectMusic file is played back in real-time, and the data for the wave file is captured directly from the low-level audio mixer.
